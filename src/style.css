@@ -24,7 +24,7 @@ justify-content:start;
 }
 .card-bot{
   display: flex;
-  justify-content: end;
+  rotate: 180deg;
 }
 .red{
   color: red;
