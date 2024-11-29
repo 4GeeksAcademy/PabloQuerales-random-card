@@ -1,1 +1,31 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+  background-color: green;
+}
+.card{
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 80px;
+}
+.card-top{
+display: flex;
+justify-content:start;
+}
+.card-mid{
+  display: flex;
+  justify-content: center;
+}
+.card-bot{
+  display: flex;
+  justify-content: end;
+}
+.red{
+  color: red;
+}
